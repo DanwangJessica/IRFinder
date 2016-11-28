@@ -1,0 +1,38 @@
+Wed Sep  6 17:48:24 2006: Start job
+Wed Sep  6 17:48:24 2006: Scan anchors
+Wed Sep  6 17:48:26 2006: Allocate space
+Wed Sep  6 17:48:26 2006: Read anchors
+Parameters:
+Algorithm:             GRIMM-Anchors
+Input file:            hmrc_align_coords.txt
+  # species:           4
+  # alignments:        343645
+Output directory:      anchors_example
+Tandem repeats         Do not condense
+Ambiguous sign thresh: 0.666667
+
+Wed Sep  6 17:48:31 2006: Sort anchors
+Wed Sep  6 17:48:31 2006: Sorting species 1
+Wed Sep  6 17:49:01 2006: Sorting species 2
+Wed Sep  6 17:49:02 2006: Sorting species 3
+Wed Sep  6 17:49:02 2006: Sorting species 4
+Wed Sep  6 17:49:03 2006: Sort for each species
+Wed Sep  6 17:49:05 2006: Determine conflicting alignments
+39236 conflicts in species 1
+76663 conflicts in species 2
+78036 conflicts in species 3
+89527 conflicts in species 4
+Wed Sep  6 17:49:05 2006: Output anchors and repeats
+208032 anchors output:
+   208019 as-is anchors
+   13 merged anchors
+   Used 208048 input alignments for those
+16270 repeats output:
+   13 merged anchors
+   16257 non-merged repeat families
+224289 components:
+   208019 as-is anchors
+   13 merged anchors
+   16257 non-merged repeat families
+Wed Sep  6 17:49:23 2006: Free space
+Wed Sep  6 17:49:23 2006: Done
